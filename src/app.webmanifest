@@ -1,7 +1,7 @@
 {
     "name": "My PWD",
     "short_name": "PWD",
-    "start_url":"/",
+    "start_url":"/src/index.html",
     "display": "fullscreen",
     "background_color": "#bebebe",
     "description": "My PWD for B3",
