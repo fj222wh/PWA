@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+	overflow-y: hidden;
+	box-sizing: border-box;
+}
+
+body {
+	background: #ffffff;
+}
+
+my-desktop::part(desktop-background) {
+	background: rgb(255, 230, 239);
+	background-image: url('/images/bg3.jpg');
+	background-position: center;
+	background-size: contain;
+
+}
+
+my-desktop::part(app1){
+	background: #ffc0cb;
+	background-image: url('/images/app-icons/quiz-white.png');
+	background-repeat: no-repeat;
+	background-size: 75%;
+	background-position: center;
+}
+
+my-desktop::part(app2){
+	background: #ffe4a3;
+	background-image: url('/images/app-icons/chat.png');
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position: center;
+}
+
+my-desktop::part(app3){
+	background: #c0ecff;
+	background-image: url('/images/app-icons/memory.png');
+	background-repeat: no-repeat;
+	background-size: 75%;
+	background-position: center;
+}
+
+my-desktop::part(app4){
+	background: #ffffff;
+	background-image: url('/images/app-icons/ball.png');
+	background-repeat: no-repeat;
+	background-size: 75%;
+	background-position: center;
+}
